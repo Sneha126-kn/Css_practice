@@ -1,0 +1,24 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(73, 175, 178);
+}
+
+@media (width: 800px){
+    div{
+        background-color: rgb(206, 2, 39);
+    }
+}
+
+@media (max-width: 600px){
+    div{
+        background-color: rgb(106, 48, 161);
+    }
+}
+@media (min-width: 300px)and (max-width:400px){
+    div{
+        background-color: rgb(41, 198, 82);
+    }
+}
+
+
